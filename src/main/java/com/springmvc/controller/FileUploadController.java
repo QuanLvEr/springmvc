@@ -16,11 +16,6 @@ import java.util.UUID;
 public class FileUploadController {
 
     @GetMapping("/test")
-    public String test1(){
-        return "test";
-    }
-
-    @GetMapping("/test")
     public String test(){
         return "test";
     }
